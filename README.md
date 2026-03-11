@@ -44,6 +44,20 @@ xkb_symbols: Это самое главное. Здесь для каждого 
 мар 11 17:38:55 viva kernel: input: Unknown keyboard by Oditynet as /devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.2/0003:1303:1986.0007/input/input20
 мар 11 17:38:55 viva kernel: hid-generic 0003:1303:1986.0007: input,hidraw1: USB HID v1.01 Keyboard [Unknown keyboard by Oditynet] on usb-0000:00:14.0-8/input2
 ```
+Реализовал я это через arduino ide
+
+```
+ odity@viva  ~  diff .arduino15/packages/arduino/hardware/avr/1.8.7/boards.txt .arduino15/packages/arduino/hardware/avr/1.8.7/boards.txt.bak 
+422,424c422,424
+< leonardo.build.vid=0x1303
+< leonardo.build.pid=0x1986
+< leonardo.build.usb_product="keyboard by Oditynet"
+---
+> leonardo.build.vid=0x2341
+> leonardo.build.pid=0x8036
+> leonardo.build.usb_product="Arduino Leonardo"
+```
+
 
 А раскладку я вешаю на клавиатуру  по умолчанию.
 
@@ -69,6 +83,9 @@ TODO: добавить вторую клавиатуру которая подк
 
 Arduino Pro Micro (на чипе ATmega32U4)
 
+
+<img src="https://github.com/oditynet/keyboard/blob/main/res1.jpg" width="250" height="auto" />
+<img src="https://github.com/oditynet/keyboard/blob/main/res2.jpg" width="250" height="auto" />
 
 
 
