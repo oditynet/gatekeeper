@@ -130,3 +130,19 @@ char keyLayers[3][ROWS][COLS] = {
   }
 };
 </pre>
+
+
+#### Версия 2
+
+Эта версия с цифровым дисплеем, продуманной раскладкой клавиатуры и выверенными расстояниями между клавишами для моих рук
+
+
+<div align="center">
+  <img src="https://github.com/oditynet/keyboard/blob/main/temp_65262555635623.jpg" alt="Изображение 1" style="transform: rotate(-90deg); width: auto; height: 300px;">
+ <img src="https://github.com/oditynet/keyboard/blob/main/temp_65282554561414.jpg" alt="Изображение 2" style="transform: rotate(-90deg); width: auto; height: 300px;">
+</div>
+
+
+
+
+
